@@ -9,4 +9,4 @@
 - Firebase Analyth
 ```
 <br>
-因為是課堂上的Project，因此不會再做改版，也不會對bug做修正，若有人有問題或想法可以發issue或寄信到hjkja0511@gmail.com
+因為是課堂上的Project，因此不會再做改版，也不會對bug做修正，若有人有問題或想法可以寄信到 <hjkja0511@gmail.com>
