@@ -9,4 +9,5 @@
 - Firebase Analyth
 ```
 <br>
-<a href="mailto:hjkja0511@gmail.com?"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a>
+因為是課堂上的Project，因此不會再做改版，也不會對bug做修正，若有人有問題或想法可以寄信到<br>
+<a href="mailto:hjkja0511@gmail.com?"></a>
