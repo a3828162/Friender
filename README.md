@@ -10,4 +10,4 @@
 ```
 <br>
 因為是課堂上的Project，因此不會再做改版，也不會對bug做修正，若有人有問題或想法可以寄信到<br>
-<mailto:hjkja0511@gmail.com>
+[Contact Us](mailto:admin@cloudhadoop.com)
