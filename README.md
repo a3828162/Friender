@@ -4,7 +4,7 @@
 這是一個結合了匿名聊天跟交友的聊天app
 
 ## Apk link
-
+<a href="https://drive.google.com/file/d/1soROmngn-LKTB6i8ZeDQUUv68UHyi931/view?usp=sharing">Friender</a>
 ## Features
 
 ## Dependancy
