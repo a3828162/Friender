@@ -12,9 +12,11 @@
 
 ## Usage
 
+### Apk link
+
 ## Dependancy
 
-## Hot to Connect to Firebase
+## How to Connect to Firebase
 
 ## Remind
 因為 icon 是同組的組員畫的，因此若使用本 project 的 icon 造成法律糾紛請自行負責
