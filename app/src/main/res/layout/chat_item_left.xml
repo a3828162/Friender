@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:padding="8dp"
+    android:layout_height="wrap_content">
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="40dp"
+        app:civ_border_color="@color/circleimagecolor"
+        app:civ_border_overlay="false"
+        app:civ_border_width="2dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_height="40dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:background="@drawable/background_left"
+        android:layout_toRightOf="@id/profile_image"
+        android:layout_marginLeft="5dp"
+        android:text="hello"
+
+        android:id="@+id/show_message"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:padding="8dp"
+        android:maxWidth="230dp"
+        android:enabled="true"
+        android:textIsSelectable="true"
+        android:focusable="true"
+        android:longClickable="true"
+        android:visibility="gone"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/show_photo"
+        android:layout_width="230dp"
+        android:layout_height="300dp"
+
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/profile_image"
+        android:background="@drawable/background_left"
+        android:visibility="gone"
+        android:padding="8dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_seen"
+        android:visibility="gone"
+        android:textSize="12sp"
+        android:layout_below="@id/show_message"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_seen2"
+        android:layout_below="@id/show_photo"
+        android:visibility="gone"
+        android:textSize="12sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_time"
+        android:layout_toRightOf="@id/show_message"
+        android:text="time"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:visibility="gone"
+        android:textSize="12sp"
+        android:layout_alignBottom="@id/show_message"
+        />
+
+    <TextView
+        android:id="@+id/txt_time2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/show_photo"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/show_photo"
+        android:text="time"
+        android:visibility="gone"
+        android:textSize="12sp" />
+
+</RelativeLayout>

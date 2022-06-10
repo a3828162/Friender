@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    tools:context=".GroupOptionActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/menucolor"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/MenuStyle"
+            >
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/group_profile"
+        android:layout_width="160dp"
+        android:layout_below="@id/bar_layout"
+        android:layout_height="160dp"
+        app:civ_border_color="@color/circleimagecolor"
+        app:civ_border_overlay="false"
+        app:civ_border_width="2dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/group_profile"
+        android:gravity="left"
+        android:id="@+id/li"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/backgroundcolor"
+                android:src="@drawable/person"
+                android:id="@+id/btn_personNumber"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/txt_group_number"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:text="成員"
+                android:layout_toRightOf="@id/btn_personNumber"
+                android:textColor="@color/textblackcolor"
+                android:textSize="14dp" />
+            />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:id="@+id/btn_personAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@color/backgroundcolor"
+                android:src="@drawable/img_groupadd" />
+
+            <TextView
+                android:id="@+id/txt_memberadd"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/btn_personAdd"
+                android:text="新增成員"
+                android:textColor="@color/textblackcolor"
+                android:textSize="14dp" />
+            />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:id="@+id/btn_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@color/backgroundcolor"
+                android:src="@drawable/img_note" />
+
+            <TextView
+                android:id="@+id/txt_note"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:text="記事本"
+                android:layout_toRightOf="@id/btn_note"
+                android:textColor="@color/textblackcolor"
+                android:textSize="14dp" />
+            />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:id="@+id/btn_exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@color/backgroundcolor"
+                android:src="@drawable/img_exit" />
+
+            <TextView
+                android:id="@+id/birthday"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:text="退出群組"
+                android:layout_toRightOf="@id/btn_exit"
+                android:textColor="@color/textblackcolor"
+                android:textSize="14dp" />
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+   <!--- <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/li"
+        android:layout_marginTop="20dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/backgroundcolor"
+            android:src="@drawable/img_exit"
+            android:id="@+id/btn_exit"
+            android:layout_centerHorizontal="true"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/backgroundcolor"
+            android:id="@+id/btn_personNumber"
+            android:layout_centerHorizontal="true"
+            android:layout_toLeftOf="@id/btn_personAdd"
+            android:src="@drawable/person"
+            android:layout_marginRight="5dp"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/backgroundcolor"
+            android:id="@+id/btn_personAdd"
+            android:layout_centerHorizontal="true"
+            android:layout_toLeftOf="@id/btn_note"
+            android:src="@drawable/img_groupadd"
+            android:layout_marginRight="5dp"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/backgroundcolor"
+            android:id="@+id/btn_note"
+            android:layout_centerHorizontal="true"
+            android:layout_toLeftOf="@id/btn_exit"
+            android:src="@drawable/img_note"
+            android:layout_marginRight="5dp"
+            />
+
+
+    </RelativeLayout> -->
+
+</RelativeLayout>

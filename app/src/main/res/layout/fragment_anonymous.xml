@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    tools:context=".Fragments.AnonymousFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/menucolor"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/anonymous_profile"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            app:civ_border_color="@color/circleimagecolor"
+            app:civ_border_overlay="false"
+            app:civ_border_width="2dp"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/anonymous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/anonymous_profile"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="匿名"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_flower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/anonymous"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="鮮花數: "
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_talking"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_email"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_shape"
+            android:text="聊天"
+            android:textColor="@color/menucolor"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

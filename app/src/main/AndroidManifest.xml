@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_newnew72"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_newnew72"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity
+            android:name=".NoteFullActivity"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".GroupNoteActivity"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".GroupAddActivity"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".GroupPersonNumberActivity"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".OutgoingInvitationActivity"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".IncomingInvitationActivity"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".GroupOptionActivity"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".CodeVideoActivity"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".GroupMessageActivity"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".GroupProfileActivity"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".CreateGroupActivity"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".BlockFriendActivity"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".FriendProfileActivity"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".AnonymousMessageActivity"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/icon6" />
+
+        <activity
+            android:name=".SearchfriendActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:exported="true"
+            android:parentActivityName=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MessageActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StartActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:parentActivityName=".StartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true"
+            android:parentActivityName=".StartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".Notifications.MyFirebaseMessaging"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

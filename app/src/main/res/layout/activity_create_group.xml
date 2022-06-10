@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    tools:context=".CreateGroupActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/menucolor"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/MenuStyle"
+            app:titleTextColor="@color/textblackcolor"
+            >
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bar_layout"
+        android:id="@+id/re1"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/txt_creategroup"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Name"
+            android:textColor="@color/textblackcolor"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/edt_groupname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/btn_createg"
+            android:layout_toRightOf="@id/txt_creategroup"
+            android:background="@drawable/edittext_shape2"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="@color/fragmenteditcolor"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_createg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button_shape"
+            android:text="Create"
+            android:textColor="@color/menucolor"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/re1"
+        android:layout_marginTop="10dp"
+        />
+
+</RelativeLayout>

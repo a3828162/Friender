@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/backgroundcolor"
+    android:layout_height="match_parent"
+    tools:context=".CodeVideoActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/menucolor"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/MenuStyle"
+            app:titleTextColor="@color/textblackcolor"
+            >
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edittxt_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bar_layout"
+        android:background="#ECF2F3"
+        android:hint="Enter Code"
+        app:met_floatingLabelTextColor="@color/hintcolor"
+        app:met_textColor="@color/tebunselec"
+        app:met_textColorHint="@color/hintcolor"
+        app:met_underlineColor="@color/hintcolor" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittxt_code"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_join"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_shape"
+            android:padding="30dp"
+            android:text="Join"
+            android:textColor="@color/menucolor" />
+
+        <Button
+            android:id="@+id/btn_share"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/btn_join"
+            android:background="@drawable/button_shape"
+            android:padding="30dp"
+            android:layout_marginLeft="20dp"
+            android:text="Share"
+            android:textColor="@color/menucolor" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

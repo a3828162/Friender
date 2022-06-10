@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    tools:context=".RegisterActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp">
+">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create a new account"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/tebunselec"
+            app:met_textColorHint="@color/hintcolor"
+            app:met_underlineColor="@color/hintcolor"
+            app:met_textColor="@color/tebunselec"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelTextColor="@color/hintcolor"
+            android:hint="Username"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/tebunselec"
+            app:met_underlineColor="@color/hintcolor"
+            app:met_floatingLabelTextColor="@color/hintcolor"
+            android:hint="Email"
+            app:met_textColorHint="@color/hintcolor"
+            app:met_textColor="@color/tebunselec"
+            app:met_floatingLabel="normal"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            app:met_floatingLabelTextColor="@color/hintcolor"
+            android:hint="Password"
+            app:met_underlineColor="@color/hintcolor"
+            android:inputType="textPassword"
+            app:met_textColorHint="@color/hintcolor"
+            app:met_textColor="@color/tebunselec"
+            app:met_floatingLabel="normal"
+            ></com.rengwuxian.materialedittext.MaterialEditText>
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="register"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:textColor="@color/menucolor"
+            tools:ignore="SpeakableTextPresentCheck"></Button>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
