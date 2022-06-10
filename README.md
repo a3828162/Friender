@@ -1,18 +1,11 @@
 # Friender
-這是一個結合了匿名聊天跟交友的聊天app<br>
-<br>
-以下是我有使用到的Firebase 功能
-```
-- Firebase Cloud Messaging
-- Firebase RealtimeDatabase
-- Firebase Auth
-- Firebase Analyth
-```
-<br>
 
-## Usage
+## Introduction
+這是一個結合了匿名聊天跟交友的聊天app
 
-### Apk link
+## Apk link
+
+## Features
 
 ## Dependancy
 
