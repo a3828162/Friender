@@ -10,5 +10,14 @@
 ```
 <br>
 
+## Usage
+
+## Dependancy
+
+## Hot to Connect to Firebase
+
+## Remind
+因為icon是同組的組員畫的，因此若使用本app的icon造成法律糾紛自行負責
+
 ## Contact
 因為是課堂上的Project，因此不會再做改版，也不會對bug做修正，若有人有問題或想法可以寄信到 <a href="mailto:hjkja0511@gmail.com?">hjkja0511@gmail</a>
