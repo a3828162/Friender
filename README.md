@@ -23,10 +23,10 @@
   * Group Note
 
 * Profile
-  * Profile Imaage
+  * Profile Image
   * Friend Profile, Group Profile
   * Light, Dark Mode
-  
+
 ## Dependancy
 以下是我用到的 SDK
 ```
