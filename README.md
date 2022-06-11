@@ -5,8 +5,28 @@
 
 ## Apk link
 <a href="https://drive.google.com/file/d/1soROmngn-LKTB6i8ZeDQUUv68UHyi931/view?usp=sharing">Friender</a>
-## Features
 
+## Features
+* Create Account
+  * Register Mail
+  * Reset Password
+
+* Chat
+  * Meet Call, Phone Call
+  * Random Pairing
+  * Friend
+  * Group
+  * Flower
+  * Notification
+  * Send Photo
+  * Unsend message
+  * Group Note
+
+* Profile
+  * Profile Imaage
+  * Friend Profile, Group Profile
+  * Light, Dark Mode
+  
 ## Dependancy
 以下是我用到的 SDK
 ```
