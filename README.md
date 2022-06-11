@@ -72,5 +72,6 @@
 icon 是同組的組員畫的，因此若使用本 project 的 icon 造成法律糾紛請自行負責
 
 ## Contact
+* Server 資料夾是我 reset flower 數量跟重配對的 app，因為我懶得去用定時執行 =)
 * 因為要求迭代很快，所以我架構跟 code 沒有寫很好，前後可能會有寫法不一的情況
 * 因為是課堂上的 Project，所以應該不會再做改版，也不會對 bug 做修正，若有人有問題或想法可以寄信到 <a href="mailto:hjkja0511@gmail.com?">hjkja0511@gmail</a>
