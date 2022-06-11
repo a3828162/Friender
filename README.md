@@ -51,7 +51,7 @@
 
 ### Step1
 到
-![Imgur](https://imgur.com/LeaGwME)
+![Imgur](https://github.com/a3828162/Friender/blob/main/picture/1.png)
 
 ## Remind
 icon 是同組的組員畫的，因此若使用本 project 的 icon 造成法律糾紛請自行負責
