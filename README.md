@@ -46,7 +46,7 @@
 - implementation ('org.jitsi.react:jitsi-meet-sdk:3.+') { transitive = true }
 ```
 * firebase 的 dependency 在連接到 firebase 時會有選項新增<br>
-* 如果在 buil 的過程中有錯可能是你 android studio build tool 版本問題或套件版本問題，可以去 stackoverflow 找答案，或是看官方 document
+* 如果在 build 的過程中有錯可能是你 android studio build tool 版本問題或套件版本問題，可以去 stackoverflow 找答案，或是看官方 document
 ## Connect to Firebase
 
 ### Step1
