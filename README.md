@@ -1,7 +1,7 @@
 # Friender
 
 ## Introduction
-這是一個結合了匿名聊天跟交友的聊天app
+這是一個結合了匿名聊天跟交友的聊天 App
 
 ## Apk link
 <a href="https://drive.google.com/file/d/1soROmngn-LKTB6i8ZeDQUUv68UHyi931/view?usp=sharing">Friender</a>
@@ -48,6 +48,9 @@
 * firebase 的 dependency 在連接到 firebase 時會有選項新增<br>
 * 如果在 buil 的過程中有錯可能是你 android studio build tool 版本問題或套件版本問題，可以去 stackoverflow 找答案，或是看官方 document
 ## Connect to Firebase
+
+### Step1
+到
 
 ## Remind
 icon 是同組的組員畫的，因此若使用本 project 的 icon 造成法律糾紛請自行負責
