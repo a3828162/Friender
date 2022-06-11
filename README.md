@@ -50,7 +50,7 @@
 ## Connect to Firebase
 
 ### Step1
-到
+到 <a href="https://firebase.google.com/?">https://firebase.google.com/</a>
 ![Imgur](https://github.com/a3828162/Friender/blob/main/picture/1.png)
 
 ## Remind
