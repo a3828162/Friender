@@ -50,8 +50,10 @@
 ## Connect to Firebase
 
 ### Step1
-到 <a href="https://firebase.google.com/?">https://firebase.google.com/</a>
+到 <a href="https://firebase.google.com/?">https://firebase.google.com/</a> 點 Go to Console
 ![Imgur](https://github.com/a3828162/Friender/blob/main/picture/1.png)
+### Step2
+
 
 ## Remind
 icon 是同組的組員畫的，因此若使用本 project 的 icon 造成法律糾紛請自行負責
