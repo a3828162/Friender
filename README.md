@@ -55,10 +55,10 @@
 ### Step2
 創建專案，按照步驟去做
 ![Imgur](https://github.com/a3828162/Friender/blob/main/picture/2.png)
-### Strp3
+### Step3
 點 Tool -> Firebase
 ![Imgur](https://github.com/a3828162/Friender/blob/main/picture/3.png)
-### Strp4
+### Step4
 點選你要的功能，我有用FCM、Auth、RealtimeDB
 * 按 connect your app 會跳轉到 firebase project 頁面，選你剛剛創建的專案
 * 按 add SDK 會幫你把用到的 SDK 版本加進 dependancy
