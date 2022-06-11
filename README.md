@@ -3,6 +3,9 @@
 ## Introduction
 這是一個結合了匿名聊天跟交友的聊天 App
 ![Imgur](https://github.com/a3828162/Friender/blob/main/picture/5.png)
+![Imgur](https://github.com/a3828162/Friender/blob/main/picture/6.png)
+![Imgur](https://github.com/a3828162/Friender/blob/main/picture/7.png)
+![Imgur](https://github.com/a3828162/Friender/blob/main/picture/8.png)
 
 ## Apk link
 <a href="https://drive.google.com/file/d/1soROmngn-LKTB6i8ZeDQUUv68UHyi931/view?usp=sharing">Friender</a>
